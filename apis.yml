@@ -1,8 +1,24 @@
 aid: savion-aerospace
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/savion-aerospace.png
 name: Savion Aerospace
-description: Savion Aerospace is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Savion Aerospace (FlySavion) is an aerospace company developing sustainable, zero-emissions
+  aviation technology. Its flagship SavionJet is an autonomous blended-wing-body (ABWB) aircraft with a
+  standup cabin and satellite-based piloting via proprietary autonomous flight software, and the company
+  offers Zero-Emissions Flight Credits (ZFCs) as a subscription for organizations seeking carbon-free air
+  travel beyond offsetting. Savion demonstrated a cryogenic LNG-fueled flight in 2019 and is a 500 Global
+  (500 Startups) and Alchemist Accelerator portfolio company. The company operates as an aviation hardware
+  and services business and publishes no public developer API, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/savion-aerospace/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Aerospace
+- Aviation
+- Sustainability
+- Clean Energy
+- Autonomous Systems
+- Zero Emissions
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +44,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/savion-aerospace-domain-security.yml
 - type: Website
   url: https://flysavion.com
+- type: About
+  url: https://www.flysavion.com/about-us
+- type: Blog
+  url: https://www.flysavion.com/news
+- type: Support
+  url: https://www.flysavion.com/support
+- type: PrivacyPolicy
+  url: https://www.flysavion.com/privacy
+- type: Contact
+  url: https://www.flysavion.com/contact-us
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
